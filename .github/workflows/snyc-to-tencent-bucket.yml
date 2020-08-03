@@ -36,4 +36,4 @@ jobs:
         pip install --upgrade setuptools
         pip install coscmd
         pip show -f coscmd
-        coscmd -v
+        ../../../bin/coscmd -v
