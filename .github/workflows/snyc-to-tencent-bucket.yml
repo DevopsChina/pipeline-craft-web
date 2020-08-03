@@ -32,3 +32,5 @@ jobs:
         python -V
         pwd
         ls -l
+        pip install coscmd
+        coscmd -h
