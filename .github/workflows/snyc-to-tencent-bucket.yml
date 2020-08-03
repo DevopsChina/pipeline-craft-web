@@ -35,4 +35,5 @@ jobs:
         pip install wheel
         pip install --upgrade setuptools
         pip install coscmd
-        coscmd -h
+        pip show -f coscmd
+        coscmd -v
