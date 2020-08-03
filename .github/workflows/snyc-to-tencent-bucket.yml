@@ -32,5 +32,7 @@ jobs:
         python -V
         pwd
         ls -l
+        pip install wheel
+        pip install --upgrade setuptools
         pip install coscmd
         coscmd -h
