@@ -37,4 +37,4 @@ jobs:
         pip install coscmd
         pip show -f coscmd
         pip list
-        coscmd -v
+        find / -name ocscmd
